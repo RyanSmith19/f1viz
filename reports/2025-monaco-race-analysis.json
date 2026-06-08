@@ -1,0 +1,38 @@
+{
+  "report_type": "race_analysis",
+  "generated_at": "2026-06-07T10:24:05.843581Z",
+  "year": 2025,
+  "grand_prix": "monaco",
+  "session_name": "Race",
+  "executive_summary": "This scaffold report preserves the Markdown and JSON contract for future OpenF1-backed race replay analysis.",
+  "sections": [
+    {
+      "title": "Analysis Contract",
+      "summary": "Future reports will explain race performance using conservative, evidence-backed comparisons against teammate, field median, session leader, and own-best baselines.",
+      "evidence": [
+        {
+          "label": "Product assumption",
+          "detail": "Driver comparisons must include contextual baselines.",
+          "source": "docs/product/assumptions.md"
+        }
+      ],
+      "confidence": "high"
+    }
+  ],
+  "timeline": [
+    {
+      "elapsed_seconds": 0.0,
+      "title": "Race replay initialized",
+      "category": "system",
+      "summary": "The time-based replay model is available. Real OpenF1 event detection will populate this timeline in later phases.",
+      "evidence": [
+        {
+          "label": "Roadmap phase",
+          "detail": "Time-based replay CLI is planned as a first-class feature.",
+          "source": "docs/roadmaps/roadmap-cli.md"
+        }
+      ],
+      "confidence": "high"
+    }
+  ]
+}

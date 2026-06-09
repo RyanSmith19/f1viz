@@ -14,8 +14,10 @@ The first version is a CLI that produces Markdown and JSON reports. The CLI is t
 ## Development
 
 ```bash
-python -m pip install -e ".[dev]"
-pytest
-f1viz --help
+cd /Users/ryansmith/dev/GitHub/f1viz
+make setup
+make test
+.venv/bin/f1viz --help
 ```
 
+See [docs/development.md](docs/development.md) for root-path commands.
